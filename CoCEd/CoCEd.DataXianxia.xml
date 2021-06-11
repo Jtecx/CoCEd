@@ -1019,12 +1019,20 @@
       <Perk Name="Ascension: Soul Purity" Description="Increases maximum soulforce by 40 per level." />
       <Perk Name="Ascension: Spiritual Enlightenment" Description="Increases soulskill effect multiplier by 5% per level, stacks multiplicatively with other perks." />
       <Perk Name="Ascension: Transhumanism" Description="Increases maximum Str/Tou/Spe/Int/Wis/Lib/Sen by 5." />
+	  <Perk Name="Ascension: Transhumanism (Int)" Description="Increases maximum Int by 8."/>
+	  <Perk Name="Ascension: Transhumanism (Lib)" Description="Increases maximum Lib by 8."/>
+	  <Perk Name="Ascension: Transhumanism (Sen)" Description="Increases maximum Sen by 8."/>
+	  <Perk Name="Ascension: Transhumanism (Spe)" Description="Increases maximum Spe by 8." />
+	  <Perk Name="Ascension: Transhumanism (Str)" Description="Increases maximum Str by 8."/>
+	  <Perk Name="Ascension: Transhumanism (Tou)" Description="Increases maximum Tou by 8."/>
+	  <Perk Name="Ascension: Transhumanism (Wis)" Description="Increases maximum Wis by 8."/>
       <Perk Name="Ascension: Wisdom" Description="Increases experience gains by 10% per level." />
     </PerkGroup>
     <PerkGroup Name="Ascension (Rare)">
       <Perk Name="Ascension: Additional Organ Mutation (1st Stage)" Description="Numerous internal mutation changed your body to allow handle 2nd mutation of the same organ/internal body part." />
       <Perk Name="Ascension: Additional Organ Mutation (2nd Stage)" Description="Numerous internal mutation changed your body to allow handle 3rd mutation of the same organ/internal body part." />
       <Perk Name="Ascension: Additional Organ Mutation (3rd Stage)" Description="Numerous internal mutation changed your body to allow handle 4th mutation of the same organ/internal body part." />
+	  <Perk Name="Ascension: Additional Organ Mutation (4th Stage)" Description="Numerous internal mutation changed your body to allow handle 5th mutation of the same organ/internal body part." />
       <Perk Name="Ascension: Building Prestige (1st Stage)" Description="Your understanding of prestige jobs from previous life allows to pick 2nd one at lvl 42+." />
       <Perk Name="Ascension: Building Prestige (2nd Stage)" Description="Your understanding of prestige jobs from previous life allows to pick 3rd one at lvl 42+." />
       <Perk Name="Ascension: Building Prestige (3rd Stage)" Description="Your understanding of prestige jobs from previous life allows to pick 4th one at lvl 42+." />
@@ -1041,9 +1049,12 @@
       <Perk Name="Ascension: Transcendental Genetic Memory (Stage 3)" Description="Allows to retain up to 45 choosen unlocked metamorph options." />
       <Perk Name="Ascension: Transcendental Genetic Memory (Stage 4)" Description="Allows to retain up to 60 choosen unlocked metamorph options." />
       <Perk Name="Ascension: Transcendental Genetic Memory (Stage 5)" Description="Allows to retain up to 75 choosen unlocked metamorph options." />
+	  <Perk Name="Ascension: Transcendental Genetic Memory (Stage 6)" Description="Allows to retain up to 90 choosen unlocked metamorph options." />
       <Perk Name="Ascension: Underdog" Description="You're underdog. Gains twice more exp for beating up enemies above your current level with doubled limit after which increase to gained exp stops." />
-      <Perk Name="Ascension: Unlocked Potential" Description="Due to reincarnation experience your body becoming strong faster than in previous life (increased passive hp, lust, fatigue gains at lvl-up)." />
-      <Perk Name="Ascension: Unlocked Potential (2nd Stage)" Description="Due to reincarnation experience your body becoming strong faster than in previous life (increased passive wrath, mana, soulforce gains at lvl-up)." />
+      <Perk Name="Ascension: Unlocked Potential" Description="Due to reincarnation experience your body becoming strong faster than in previous life (increased passive hp (+80), lust (+6), fatigue (+6) gains at lvl-up)." />
+      <Perk Name="Ascension: Unlocked Potential (2nd Stage)" Description="Due to reincarnation experience your body becoming strong faster than in previous life (increased passive wrath (+10), mana (+12), soulforce (+6) gains at lvl-up)." />
+	  <Perk Name="Ascension: Unlocked Potential (3rd Stage)" Description="Due to reincarnation experience your body becoming strong faster than in previous life (2nd increase to passive hp (+80), lust (+6), fatigue (+6) gains at lvl-up)." />
+	  <Perk Name="Ascension: Unlocked Potential (4th Stage)" Description="Due to reincarnation experience your body becoming strong faster than in previous life (2nd increase to passive wrath (+10), mana (+12), soulforce (+6) gains at lvl-up)." />
     </PerkGroup>
     <PerkGroup Name="Past Life">
       <Perk Name="Past Life: Alchemist" Description="Alchemical experience makes items more reactive to your body." />
@@ -1293,7 +1304,7 @@
       <Perk Name="Oviposition" Description="Causes you to regularly lay eggs when not otherwise pregnant." />
       <Perk Name="Phantom Shooting" Description="Thanks to your ghostly form, throwing weapons and firearms now drains some of your ectoplasm with each use instead of using ammunition. (+5% dmg)" />
       <Perk Name="Phoenix fire breath" Description="Allows access to a phoenix fire breath attack" />
-      <Perk Name="Poison nails" Description="Your nails inflict a deadly poison on strike, damaging your foe’s toughness, speed and arousing them." />
+      <Perk Name="Poison nails" Description="Your nails inflict a deadly poison on strike, damaging your foe's toughness, speed and arousing them." />
       <Perk Name="Pure Gargoyle" Description="Need to gain sustenance from soulforce to stay alive." />
       <Perk Name="Rigidity" Description="Your cadaverous rigidity prevents any form of escape in battle." />
       <Perk Name="Satyr Sexuality" Description="Thanks to your satyr biology, you now have the ability to impregnate both vaginas and asses. Also increases your virility rating. (Anal impregnation not implemented yet)" />
@@ -1322,14 +1333,16 @@
       <Perk Name="Chimerical Body: Initial Stage" Description="Negates up to 2 racial perk point's negative effects." />
       <Perk Name="Chimerical Body: Semi-Basic Stage" Description="Negates up to 3 racial perk point's negative effects." />
       <Perk Name="Chimerical Body: Basic Stage" Description="Negates up to 4 racial perk point's negative effects." />
-      <Perk Name="Chimerical Body: Semi-Advanced Stage" Description="Negates up to 5 racial perk point's negative effects." />
-      <Perk Name="Chimerical Body: Advanced Stage" Description="Negates up to 6 racial perk point's negative effects." />
-      <Perk Name="Chimerical Body: Semi-Superior Stage" Description="Negates up to 7 racial perk point's negative effects." />
-      <Perk Name="Chimerical Body: Superior Stage" Description="Negates up to 8 racial perk point's negative effects." />
-      <Perk Name="Chimerical Body: Semi-Peerless Stage" Description="Negates up to 9 racial perk point's negative effects." />
-      <Perk Name="Chimerical Body: Peerless Stage" Description="Negates up to 10 racial perk point's negative effects." />
-      <Perk Name="Chimerical Body: Semi-Epic Stage" Description="Negates up to 11 racial perk point's negative effects." />
-      <Perk Name="Chimerical Body: Epic Stage" Description="Negates up to 12 racial perk point's negative effects." />
+	  <Perk Name="Chimerical Body: Semi-Improved Stage" Description="Negates up to 5 racial perk point's negative effects." />
+	  <Perk Name="Chimerical Body: Improved Stage" Description="Negates up to 6 racial perk point's negative effects." />
+      <Perk Name="Chimerical Body: Semi-Advanced Stage" Description="Negates up to 7 racial perk point's negative effects." />
+      <Perk Name="Chimerical Body: Advanced Stage" Description="Negates up to 8 racial perk point's negative effects." />
+      <Perk Name="Chimerical Body: Semi-Superior Stage" Description="Negates up to 9 racial perk point's negative effects." />
+      <Perk Name="Chimerical Body: Superior Stage" Description="Negates up to 10 racial perk point's negative effects." />
+      <Perk Name="Chimerical Body: Semi-Peerless Stage" Description="Negates up to 11 racial perk point's negative effects." />
+      <Perk Name="Chimerical Body: Peerless Stage" Description="Negates up to 12 racial perk point's negative effects." />
+      <Perk Name="Chimerical Body: Semi-Epic Stage" Description="Negates up to 13 racial perk point's negative effects." />
+      <Perk Name="Chimerical Body: Epic Stage" Description="Negates up to 14 racial perk point's negative effects." />
       <Perk Name="Clawing flurry" Description="When attacking with your claws, add an additional attack striking up to 5 times." />
       <Perk Name="Claw training" Description="Gain 1 extra natural attack with your claws." />
       <Perk Name="Death plunge" Description="When using Great Dive you may add your weapon damage as part of the attack damage as if using power attack at its current maximum value consuming no wrath in the process." />
@@ -1360,7 +1373,7 @@
       <Perk Name="Gorgon's Eyes (Evolved)" Description="Another mutation of your eyes allows you to move a bit faster, a bit longer Petrify effect and change negative effect of resistance to basilisks and similar effects into positive effect (-5 to Spe change into +5 to Spe (scalable))." />
       <Perk Name="Greater Aerial Combat" Description="You have learned to use air and gravity to your own benefit. (extend flight duration by 4 turns and increase evasion when flying by 15%)" />
       <Perk Name="Heart of the storm" Description="Increase the power of all Wind and Lightning racial abilities by 20%." />
-      <Perk Name="Heart of the storm, Evolved" Description="Further increase the power of all Wind and Lightning abilities by 20% and Increase wind and electricity resistance by 20%." />
+	  <Perk Name="Heart of the storm (Evolved)" Description="Further increase the power of all Wind and Lightning abilities and Increase wind and electricity resistance by 10%. Speed +10%." />
       <Perk Name="Heart of the storm, Final Form" Description="Further increase the power of all Wind and Lightning abilities by another 20% and Increases wind and electricity resistance by another 20%. If able, you may fly without end at no fatigue cost." />
       <Perk Name="Hinezumi burning blood" Description="Increase the healing from the cauterize ability by 0.5% and raise Blazing battle spirit duration by 1 round." />
       <Perk Name="Hinezumi burning blood (Evolved)" Description="Increase the healing from the cauterize ability by 0.5% and raising Blazing battle spirit duration by 2 rounds." />
@@ -1434,6 +1447,17 @@
       <Perk Name="Whale fat" Description="Your whale fat increase your damage reduction against physical attacks and grants you resistance to cold permanantly." />
       <Perk Name="Whale fat, Evolved" Description="Your whale fat further increase your damage reduction against physical attacks and the duration of juggle is increased by 1 round." />
       <Perk Name="Whale fat, Final Form" Description="Your whale fat further increase your damage reduction against physical attacks and the duration of juggle is increased by 1 additionnal round. Juggle can now be used a third time" />
+	  <Perk Name="Harpy Hollow Bones" Description="Your bones are hollow like those of a harpy granting you 20% increased physical damage when flying and increasing speed at the expense of toughness. Also allows to keep Harpy song. Toughness -5%, Speed +20%." />
+	  <Perk Name="Harpy Hollow Bones (Evolved)" Description="Your bones are hollow like those of a harpy granting you an additionnal 30% increased physical damage when flying and increasing speed at the expense of toughness. Increase flying evasiveness by 10%. Toughness -5%, Speed +25%." />
+	  <Perk Name="Harpy Hollow Bones (Final Form)" Description="Your bones are hollow like those of a harpy granting you an additionnal 30% increased physical damage when flying and increasing speed at the expense of toughness. Increase great dive damage by 50%. Toughness -5%, Speed +45%." />
+	  <Perk Name="Ratatoskr smarts" Description="Allows to perma Weird words. Intelligence +5%." />
+	  <Perk Name="Ratatoskr smarts (Evolved)" Description="Increase the damage of Weird words by 20%. Lower cooldown of Knowledge overload by 1 turn. Intelligence +10%." />
+	  <Perk Name="Ratatoskr smarts (Final Form)" Description="Increase the damage of Weird words by another 30%. Lower cooldowns of ratatoskr specials by 1 turn. Knowledge is power is now three times as effective. Intelligence +20%." />
+	  <Perk Name="Yeti Fat" Description="Gain damage reduction against attacks and increase the strength of the yeti ice breath by 50%." />
+	  <Perk Name="Arachnid Book Lung" Description="Increase the amount of web and poison generated by 100%. Intelligence +5%." />
+	  <Perk Name="Arachnid Book Lung (Evolved)" Description="Increase the amount of web and poison generated by an additional 100% and increase the effectiveness of all Web abilities by half. Intelligence +10%." />
+	  <Perk Name="Arachnid Book Lung (Final Form)" Description="Increase the amount of web and poison generated by an additional 100%, increase the effectiveness of all Web abilities by half. Web abilities have a 50% chance to immobilize opponents for 2 rounds when used as the opponent struggles to get free. Intelligence +15%." />
+	  <Perk Name="Fey Arcane Bloodstream" Description="Your Fey Arcane Bloodstream is granting you along with an eternal lifespan increased mana recovery and increased magical power. Intelligence +5%." />
     </PerkGroup>
     <PerkGroup Name="Events">
       <Perk Name="Advanced Leadership" Description="Allows to form 4 people party." />
@@ -1545,7 +1569,10 @@
       <Perk Name="Cave Wyrm Lungs (Final Form)" />
       <Perk Name="Chimerical Body: Ultimate Stage" Description="Negates all racial perk point's negative effects." />
       <Perk Name="Cultivation" Description="Allow to cultivate powers of the soul." />
+	  <Perk Name="Hidden Job: Asura" Description="You've trained in Way of Asura. Being that reached mastery of unleashing wrath to great effect. (+10% of OverMax Wrath)" />
+	  <Perk Name="Hidden Job: Blood Demon" Description="You've trained in the art of blood demons. Beings that reached mastery of using their own or others blood to great effect. (+10x Tou of OverMax HP, -5% blood spells/soulskills cost, +10% blood spells/soulskills power)" />
       <Perk Name="Deity Job: Munchkin" Description="You're Munchkin, an ultimate being that possess a god-like body and powers." />
+	  <Perk Name="E class Heaven Tribulation Survivor" Description="You have survived the fourth trial on cultivation path: E class Heaven Tribulation. +25% to all stats." />
       <Perk Name="F class Heaven Tribulation Survivor" Description="You have survived third trial on cultivation path: F class Heaven Tribulation." />
       <Perk Name="G class Heaven Tribulation Survivor" Description="You have survived second trial on cultivation path: G class Heaven Tribulation. (is this even still used anymore?)" />
       <Perk Name="H class Heaven Tribulation Survivor" Description="You have survived first trial on cultivation path: H class Heaven Tribulation. (is this even still used anymore?)" />
@@ -1560,6 +1587,428 @@
       <Perk Name="Prestige Job: Seer" Description="You've trained in prestige art of combining soulforce and magic." />
       <Perk Name="Scylla Ink Glands (Evolved)" />
     </PerkGroup>
+	<PerkGroup Name="Cultivation Perks">
+	  <Perk Name="Body Cultivator" Description="Allow you to train your soul cultivator body to make it as tough as artifacts. (+1 to armor, +2 to unarmed attack, +100 max HP, +0.5% HP regen)" />
+	  <Perk Name="Dantian" Description="Increase max soulforce by 10% + 10% to 25% (per each attained cultivation stage) of base value." />
+	  <Perk Name="Daoist Cultivator" Description="Allow you to train your soul cultivator mind to unleash soulskills with their apex power. (+10% soulskill/m.soulskill power, -10% soulskills cost, +50% base soulforce recovery multiplier)" />
+	  <Perk Name="Daoist: Apprentice Stage" Description="Your reached first stage of Daoist path. (+20% soulskill/m.soulskill power, +30 max SF at S.Apprentice, S.Personage, S.Warrior stages)" />
+	  <Perk Name="Daoist: Elder Stage" Description="Your reached third stage of Daoist path. (+40% soulskill/m.soulskill power, +50 max SF at S.Exalt, S.Overlord, S.Tyrant stages)" />
+	  <Perk Name="Daoist: Overlord Stage" Description="Your reached fourth stage of Daoist path. (+50% soulskill/m.soulskill power, +60 max SF S.King, S.Emperor, S.Ancestor stages)" />
+	  <Perk Name="Daoist: Warrior Stage" Description="Your reached second stage of Daoist path. (+30% soulskill/m.soulskill power, +40 max SF at S.Sprite, S.Scholar, S.Elder stages)" />
+	  <Perk Name="Flesh Body: Apprentice Stage" Description="Your reached first stage of body cultivating. (+4 to unarmed attack, +2 to armor, +1 to magic resistance, +200 max HP at S.Apprentice, S.Personage, S.Warrior stages)" />
+	  <Perk Name="Flesh Body: Elder Stage" Description="Your reached third stage of body cultivating. (+8 to unarmed attack, +4 to armor, +3 to magic resistance, +400 max HP at S.Exalt, S.Overlord, S.Tyrant stages)" />
+	  <Perk Name="Flesh Body: Overlord Stage" Description="Your reached fourth stage of body cultivating. (+10 to unarmed attack, +5 to armor, +4 to magic resistance, +500 max HP S.King, S.Emperor, S.Ancestor stages)" />
+	  <Perk Name="Flesh Body: Warrior Stage" Description="Your reached second stage of body cultivating. (+6 to unarmed attack, +3 to armor, +2 to magic resistance, +300 max HP at S.Sprite, S.Scholar, S.Elder stages)" />
+	  <Perk Name="Soul Ancestor" Description="Allow reaching 12th stage of soul cultivation. (+35 max Hunger, +5 to max Wis, +140 max SF at lvl 72, 74, 76; +25% to max SF at lvl 72) Wisdom +5%." />
+	  <Perk Name="Soul Apprentice" Description="Allow reaching 1st stage of soul cultivation. (+20 max Hunger, +5 to max Wis, +30 max SF at lvl 6, 8, 10; +10% to max SF at lvl 6) Wisdom +5%." />
+	  <Perk Name="Soul Elder" Description="Allow reaching 6th stage of soul cultivation. (+25 max Hunger, +5 to max Wis, +80 max SF at lvl 36, 38, 40; +15% to max SF at lvl 36) Wisdom +5%." />
+	  <Perk Name="Soul Emperor" Description="Allow reaching 11th stage of soul cultivation. (+35 max Hunger, +5 to max Wis, +130 max SF at lvl 66, 68, 70; +25% to max SF at lvl 66) Wisdom +5%." />
+	  <Perk Name="Soul Exalt" Description="Allow reaching 7th stage of soul cultivation. (+30 max Hunger, +5 to max Wis, +90 max SF at lvl 42, 44, 46; +20% to max SF at lvl 42) Wisdom +5%." />
+	  <Perk Name="Soul King" Description="Allow reaching 10th stage of soul cultivation. (+35 max Hunger, +5 to max Wis, +120 max SF at lvl 60, 62, 64; +25% to max SF at lvl 60) Wisdom +5%." />
+	  <Perk Name="Soul Overlord" Description="Allow reaching 8th stage of soul cultivation. (+30 max Hunger, +5 to max Wis, +100 max SF at lvl 48, 50, 52; +20% to max SF at lvl 48) Wisdom +5%." />
+	  <Perk Name="Soul Personage" Description="Allow reaching 2nd stage of soul cultivation. (+20 max Hunger, +5 to max Wis, +40 max SF at lvl 12, 14, 16; +10% to max SF at lvl 12) Wisdom +5%." />
+	  <Perk Name="Soul Scholar" Description="Allow reaching 5th stage of soul cultivation. (+25 max Hunger, +5 to max Wis, +70 max SF at lvl 30, 32, 34; +15% to max SF at lvl 30) Wisdom +5%." />
+	  <Perk Name="Soul Sprite" Description="Allow reaching 4th stage of soul cultivation. (+25 max Hunger, +5 to max Wis, +60 max SF at lvl 24, 26, 28; +15% to max SF at lvl 24) Wisdom +5%." />
+	  <Perk Name="Soul Tyrant" Description="Allow reaching 9th stage of soul cultivation. (+30 max Hunger, +5 to max Wis, +110 max SF at lvl 54, 56, 58; +20% to max SF at lvl 54) Wisdom +5%." />
+	  <Perk Name="Soul Warrior" Description="Allow reaching 3rd stage of soul cultivation. (+20 max Hunger, +5 to max Wis, +50 max SF at lvl 18, 20, 22; +10% to max SF at lvl 18) Wisdom +5%." />
+	  <Perk Name="Flying Sword Path" Description="Allow to control flying swords. With spending enough soulforce can even fly on them. (+50 max soulforce)" />
+	  <Perk Name="Soaring Blades" Description="Reduce SF cost of attacking with flying swords or flying on them by 20% per each stage of dantain attained." />
+	</PerkGroup>
+	<PerkGroup Name="Stat Perks">
+	  <Perk Name="Basic Endurance" Description="Increases maximum fatigue by 30." />
+	  <Perk Name="Basic Self-Control" Description="Increases maximum lust by 45." />
+	  <Perk Name="Basic Spirituality" Description="Increases maximum mana by 135." />
+	  <Perk Name="Basic Tranquilness" Description="Increases maximum wrath by 75." />
+	  <Perk Name="Epic Endurance" Description="Increases maximum fatigue by 4500." />
+	  <Perk Name="Epic Intelligence" Description="Intelligence +35%." />
+	  <Perk Name="Epic Libido" Description="Libido +35%." />
+	  <Perk Name="Epic Self-Control" Description="Increases maximum lust by 6750." />
+	  <Perk Name="Epic Sensitivity" Description="Sensitivity +35." />
+	  <Perk Name="Epic Speed" Description="Speed +35%." />
+	  <Perk Name="Epic Spirituality" Description="Increases maximum mana by 20250." />
+	  <Perk Name="Epic Strength" Description="Strength +35%." />
+	  <Perk Name="Epic Toughness" Description="Toughness +35%." />
+	  <Perk Name="Epic Tranquilness" Description="Increases maximum wrath by 11250." />
+	  <Perk Name="Epic Wisdom" Description="Wisdom +35%." />
+	  <Perk Name="Half-step-to Advanced Endurance" Description="Increases maximum fatigue by 120." />
+	  <Perk Name="Half-step-to Advanced Self-Control" Description="Increases maximum lust by 180." />
+	  <Perk Name="Half-step-to Advanced Spirituality" Description="Increases maximum mana by 540." />
+	  <Perk Name="Half-step-to Advanced Tranquilness" Description="Increases maximum wrath by 300." />
+	  <Perk Name="Half-step-to Epic Endurance" Description="Increases maximum fatigue by 3000." />
+	  <Perk Name="Half-step-to Epic Self-Control" Description="Increases maximum lust by 4500." />
+	  <Perk Name="Half-step-to Epic Spirituality" Description="Increases maximum mana by 13500." />
+	  <Perk Name="Half-step-to Epic Tranquilness" Description="Increases maximum wrath by 7500." />
+	  <Perk Name="Half-step-to Improved Endurance" Description="Increases maximum fatigue by 50." />
+	  <Perk Name="Half-step-to Improved Self-Control" Description="Increases maximum lust by 75." />
+	  <Perk Name="Half-step-to Improved Spirituality" Description="Increases maximum mana by 225." />
+	  <Perk Name="Half-step-to Improved Tranquilness" Description="Increases maximum wrath by 125." />
+	  <Perk Name="Half-step-to Inhuman Endurance" Description="Increases maximum fatigue by 1500." />
+	  <Perk Name="Half-step-to Inhuman Self-Control" Description="Increases maximum lust by 2250." />
+	  <Perk Name="Half-step-to Inhuman Spirituality" Description="Increases maximum mana by 6750." />
+	  <Perk Name="Half-step-to Inhuman Tranquilness" Description="Increases maximum wrath by 3750." />
+	  <Perk Name="Half-step-to Legendary Endurance" Description="Increases maximum fatigue by 7000." />
+	  <Perk Name="Half-step-to Legendary Self-Control" Description="Increases maximum lust by 10500." />
+	  <Perk Name="Half-step-to Legendary Spirituality" Description="Increases maximum mana by 31500." />
+	  <Perk Name="Half-step-to Legendary Tranquilness" Description="Increases maximum wrath by 17500." />
+	  <Perk Name="Half-step-to Mythical Endurance" Description="Increases maximum fatigue by 15000." />
+	  <Perk Name="Half-step-to Mythical Self-Control" Description="Increases maximum lust by 22500." />
+	  <Perk Name="Half-step-to Mythical Spirituality" Description="Increases maximum mana by 67500." />
+	  <Perk Name="Half-step-to Mythical Tranquilness" Description="Increases maximum wrath by 37500." />
+	  <Perk Name="Half-step-to Peerless Endurance" Description="Increases maximum fatigue by 700." />
+	  <Perk Name="Half-step-to Peerless Self-Control" Description="Increases maximum lust by 1050." />
+	  <Perk Name="Half-step-to Peerless Spirituality" Description="Increases maximum mana by 3150." />
+	  <Perk Name="Half-step-to Peerless Tranquilness" Description="Increases maximum wrath by 1750." />
+	  <Perk Name="Half-step-to Superior Endurance" Description="Increases maximum fatigue by 320." />
+	  <Perk Name="Half-step-to Superior Self-Control" Description="Increases maximum lust by 480." />
+	  <Perk Name="Half-step-to Superior Spirituality" Description="Increases maximum mana by 1440." />
+	  <Perk Name="Half-step-to Superior Tranquilness" Description="Increases maximum wrath by 800." />
+	  <Perk Name="Legendary Endurance" Description="Increases maximum fatigue by 10000." />
+	  <Perk Name="Legendary Intelligence" Description="Intelligence +50%." />
+	  <Perk Name="Legendary Libido" Description="Libido +50%." />
+	  <Perk Name="Legendary Self-Control" Description="Increases maximum lust by 15000." />
+	  <Perk Name="Legendary Sensitivity" Description="Sensitivity +50." />
+	  <Perk Name="Legendary Speed" Description="Speed +50%." />
+	  <Perk Name="Legendary Spirituality" Description="Increases maximum mana by 45000." />
+	  <Perk Name="Legendary Strength" Description="Strength +50%." />
+	  <Perk Name="Legendary Toughness" Description="Toughness +50%." />
+	  <Perk Name="Legendary Tranquilness" Description="Increases maximum wrath by 25000." />
+	  <Perk Name="Legendary Wisdom" Description="Wisdom +50%." />
+	  <Perk Name="Mythical Endurance" Description="Increases maximum fatigue by 20000." />
+	  <Perk Name="Mythical Intelligence" Description="Intelligence +65%." />
+	  <Perk Name="Mythical Libido" Description="Libido +65%." />
+	  <Perk Name="Mythical Self-Control" Description="Increases maximum lust by 30000." />
+	  <Perk Name="Mythical Sensitivity" Description="Sensitivity +65." />
+	  <Perk Name="Mythical Speed" Description="Speed +65%." />
+	  <Perk Name="Mythical Spirituality" Description="Increases maximum mana by 90000." />
+	  <Perk Name="Mythical Strength" Description="Strength +65%." />
+	  <Perk Name="Mythical Toughness" Description="Toughness +65%." />
+	  <Perk Name="Mythical Tranquilness" Description="Increases maximum wrath by 50000." />
+	  <Perk Name="Mythical Wisdom" Description="Increases maximum wisdom by 65 + 15 * NG tier. Wisdom +65%." />
+	  <Perk Name="Peerless Endurance" Description="Increases maximum fatigue by 1000." />
+	  <Perk Name="Peerless Self-Control" Description="Increases maximum lust by 1500." />
+	  <Perk Name="Peerless Spirituality" Description="Increases maximum mana by 4500." />
+	  <Perk Name="Peerless Tranquilness" Description="Increases maximum wrath by 2500." />
+	  <Perk Name="Superior Endurance" Description="Increases maximum fatigue by 500." />
+	  <Perk Name="Superior Self-Control" Description="Increases maximum lust by 750." />
+	  <Perk Name="Superior Spirituality" Description="Increases maximum mana by 2250." />
+	  <Perk Name="Superior Tranquilness" Description="Increases maximum wrath by 1250." />
+	</PerkGroup>
+	<PerkGroup Name="Summoner Perks">
+	  <Perk Name="Elemental Bond: Flesh" Description="You gains bonus to max HP depending on amount of summoned elementals and their ranks." />
+	  <Perk Name="Elemental Bond: Urges" Description="You gains bonus to max Lust depending on amount of summoned elementals and their ranks." />
+	  <Perk Name="Elemental Conjurer Dedication" Description="Your elementals attack power is greatly enhanced at the cost of physical body fragility. Intelligence +40%, Wisdom +60%." />
+	  <Perk Name="Elemental Conjurer Resolve" Description="Your elementals attack power is enhanced at the cost of weakening physical body. Intelligence +20%, Wisdom +30%, Speed -15%, Toughness -15%." />
+	  <Perk Name="Elemental Conjurer Sacrifice" Description="Your elementals attack power is enhanced beyond limits at the cost of similar weakening physical ones. Intelligence +60%." />
+	  <Perk Name="Elemental Contract Rank 1" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 1." />
+	  <Perk Name="Elemental Contract Rank 2" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 2." />
+	  <Perk Name="Elemental Contract Rank 3" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 3." />
+	  <Perk Name="Elemental Contract Rank 4" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 4." />
+	  <Perk Name="Elemental Contract Rank 5" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 5." />
+	  <Perk Name="Elemental Contract Rank 6" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 6." />
+	  <Perk Name="Elemental Contract Rank 7" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 7." />
+	  <Perk Name="Elemental Contract Rank 8" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 8." />
+	  <Perk Name="Elemental Contract Rank 9" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 1. Allow to rank-up summoned elementals to rank 9." />
+	  <Perk Name="Elemental Contract Rank 10" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 9th Elder rank." />
+	  <Perk Name="Elemental Contract Rank 11" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 8th Elder rank." />
+	  <Perk Name="Elemental Contract Rank 12" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 7th Elder rank." />
+	  <Perk Name="Elemental Contract Rank 13" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 6th Elder rank." />
+	  <Perk Name="Elemental Contract Rank 14" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 5th Elder rank." />
+	  <Perk Name="Elemental Contract Rank 15" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 4th Elder rank." />
+	  <Perk Name="Elemental Contract Rank 16" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 3rd Elder rank." />
+	  <Perk Name="Elemental Contract Rank 17" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 2nd Elder rank." />
+	  <Perk Name="Elemental Contract Rank 18" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to 1st Elder rank." />
+	  <Perk Name="Elemental Contract Rank 19" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 2. Allow to rank-up summoned elementals to Grand Elder rank." />
+	  <Perk Name="Elemental Contract Rank 20" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Low) Lord rank." />
+	  <Perk Name="Elemental Contract Rank 21" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Mid) Lord rank." />
+	  <Perk Name="Elemental Contract Rank 22" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Advanced) Lord rank." />
+	  <Perk Name="Elemental Contract Rank 23" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Peak) Lord rank." />
+	  <Perk Name="Elemental Contract Rank 24" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Low) Baron rank." />
+	  <Perk Name="Elemental Contract Rank 25" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Mid) Baron rank." />
+	  <Perk Name="Elemental Contract Rank 26" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Advanced) Baron rank." />
+	  <Perk Name="Elemental Contract Rank 27" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Peak) Baron rank." />
+	  <Perk Name="Elemental Contract Rank 28" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Low) Viscount rank." />
+	  <Perk Name="Elemental Contract Rank 29" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Mid) Viscount rank." />
+	  <Perk Name="Elemental Contract Rank 30" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Advanced) Viscount rank." />
+	  <Perk Name="Elemental Contract Rank 31" Description="As Elemental Contract rank increase, the number and maximum rank of elementals you can command increases by 3. Allow to rank-up summoned elementals to (Peak) Viscount rank." />
+	  <Perk Name="Elements of the orthodox Path" Description="You can now summon and command ether, wood and metal elementals. Also increase elementals command limit by 1." />
+	  <Perk Name="Elements of Mareth: Basics" Description="You can now summon and command ice, lightning and darkness elementals. Also increase elementals command limit by 1." />
+	  <Perk Name="Elements of Mareth: Advanced" Description="You can now summon and command poison, purity and corruption elementals. Also increase elementals command limit by 1." />
+	  <Perk Name="Strong Elemental Bond" Description="Lower by 10 needed mana to sustain active elemental in combat." />
+	  <Perk Name="Stronger Elemental Bond" Description="Lower by 20 needed mana to sustain active elemental in combat." />
+	  <Perk Name="Strongest Elemental Bond" Description="Lower by 30 needed mana to sustain active elemental in combat." />
+	  <Perk Name="Strongest Elemental Bond (Ex)" Description="Lower by 40 needed mana to sustain active elemental in combat." />
+	  <Perk Name="Strongest Elemental Bond (Su)" Description="Lower by 40 needed mana to sustain active elemental in combat." />
+	</PerkGroup>
+	<PerkGroup Name="Unknown Tier">
+	  <Perk Name="(Eternaly) Lasting Buffs" Description="Buff spells last another 5 turns longer at another 2x increase of their costs." />
+	  <Perk Name="(Ever)Lasting Buffs" Description="Buff spells last 5 turns longer at the double of normal costs." />
+	  <Perk Name="All-Seeing" Description="You see everything... so you should have expected this description, and the 10% soul force gain." />
+	  <Perk Name="Amateur" Description="You've just started out on your sex life. You don't know much, but you can tease well. (+15% tease dmg)" />
+	  <Perk Name="Amateur Gunslinger" Description="Gain an extra firearm attack per turn (2nd one)." />
+	  <Perk Name="Arcane Lash" Description="Your whip act as a catalyst for your lust inducing spells as well as for magic weapon." />
+	  <Perk Name="Arcane Pool I" Description="+3 extra mana per point of intelligence and wisdom." />
+	  <Perk Name="Arcane Pool II" Description="+3 extra mana per point of intelligence and wisdom." />
+	  <Perk Name="Arcane Pool III" Description="+3 extra mana per point of intelligence and wisdom." />
+	  <Perk Name="Arcane Pool IV" Description="+3 extra mana per point of intelligence and wisdom." />
+	  <Perk Name="Arcane Pool V" Description="+3 extra mana per point of intelligence and wisdom." />
+	  <Perk Name="Arcane Pool VI" Description="+3 extra mana per point of intelligence and wisdom." />
+	  <Perk Name="Arcane Regeneration (Minor)" Description="Increase by 10 base mana recovery and 5% max mana." />
+	  <Perk Name="Arcane Regeneration (Major)" Description="Increase by 20 base mana recovery and 10% max mana." />
+	  <Perk Name="Arcane Regeneration (Epic)" Description="Increase by 30 base mana recovery and 15% max mana." />
+	  <Perk Name="Arcane Regeneration (Legendary)" Description="Increase by 40 base mana recovery and 20% max mana." />
+	  <Perk Name="Arcane Regeneration (Mythical)" Description="Increase by 50 base mana recovery and 25% max mana." />
+	  <Perk Name="Archer's Stamina I" Description="+1 extra fatigue per point of speed." />
+	  <Perk Name="Archer's Stamina II" Description="+1 extra fatigue per point of speed." />
+	  <Perk Name="Archer's Stamina III" Description="+1 extra fatigue per point of speed." />
+	  <Perk Name="Archer's Stamina IV" Description="+1 extra fatigue per point of speed." />
+	  <Perk Name="Archer's Stamina V" Description="+1 extra fatigue per point of speed." />
+	  <Perk Name="Archer's Stamina VI" Description="+1 extra fatigue per point of speed." />
+	  <Perk Name="Armor Master" Description="Boosts armor points by a portion of your speed on heavy armors." />
+	  <Perk Name="Basic All-Rounder Education" Description="Limit of advanced job you can learn is increased by 3." />
+	  <Perk Name="Expert All-Rounder Education" Description="Limit of advanced job you can learn is increased by 3." />
+	  <Perk Name="Beginner Golem Maker" Description="Your proficiency in making golems allows to lower by 5% chance of core shattering and storing more golems/golem cores." />
+	  <Perk Name="Bigger Golem Bag I" Description="Your extra dimensional golem bag can store 2 more temporary (and 1 more permanent when becoming Master Golem Maker) golems." />
+	  <Perk Name="Bigger Golem Bag II" Description="Your extra dimensional golem bag can store 2 more temporary (and 1 more permanent when becoming Master Golem Maker) golems." />
+	  <Perk Name="Bigger Golem Bag III" Description="Your extra dimensional golem bag can store 2 more temporary (and 1 more permanent when becoming Master Golem Maker) golems." />
+	  <Perk Name="Bigger Golem Bag IV" Description="Your extra dimensional golem bag can store 2 more temporary (and 1 more permanent when becoming Master Golem Maker) golems." />
+	  <Perk Name="Bigger Golem Bag V" Description="Your extra dimensional golem bag can store 2 more temporary (and 1 more permanent when becoming Master Golem Maker) golems." />
+	  <Perk Name="Bigger Golem Bag VI" Description="Your extra dimensional golem bag can store 2 more temporary (and 1 more permanent when becoming Master Golem Maker) golems." />
+	  <Perk Name="Bones of Steel" Description="Your body has adapted to constant fighting, making your bones as hard as steel, increasing the damage dealt with melee attacks. (+10% melee phys dmg)" />
+	  <Perk Name="Bouncy body" Description="Attacks that would deal more than half of your health have a chance to simply punt you around, reducing damage taken by 25%." />
+	  <Perk Name="Brute" Description="You have increased your striking strength. (+20% of max core Str as phantom Str)" />
+	  <Perk Name="Bull Strength" Description="Increase strength by a percentage based on milk or cum production up to 50% of total value." />
+	  <Perk Name="Careful but Reckless Aim and Shooting" Description="Increase accuracy by 30%. Toughness -15%." />
+	  <Perk Name="Challenging shout" Description="You can now use the ability Warrior Shout! (+20% of max/overmax wrath)" />
+	  <Perk Name="Cheetah I" Description="+4 extra HP per point of speed." />
+	  <Perk Name="Cheetah II" Description="+4 extra HP per point of speed." />
+	  <Perk Name="Cheetah III" Description="+4 extra HP per point of speed." />
+	  <Perk Name="Cheetah IV" Description="+4 extra HP per point of speed." />
+	  <Perk Name="Cheetah V" Description="+4 extra HP per point of speed." />
+	  <Perk Name="Cheetah VI" Description="+4 extra HP per point of speed." />
+	  <Perk Name="Cyclone (Stage 1)" Description="Increasing crit chance for aoe like whirlwind by 10%." />
+	  <Perk Name="Cyclone (Stage 2)" Description="Increasing crit chance for aoe like whirlwind by 15%." />
+	  <Perk Name="Cyclone (Stage 3)" Description="Increasing crit chance for aoe like whirlwind by 20%." />
+	  <Perk Name="Cyclone (Stage 4)" Description="Increasing crit chance for aoe like whirlwind by 20% and damage multipier by 50% of base value." />
+	  <Perk Name="Cyclone (Stage 5)" Description="Increasing crit chance for aoe like whirlwind by 25% and damage multipier by 150% of base value." />
+	  <Perk Name="Dancer's Vitality I" Description="+1.5 extra fatigue per point of speed." />
+	  <Perk Name="Dancer's Vitality II" Description="+1.5 extra fatigue per point of speed." />
+	  <Perk Name="Dancer's Vitality III" Description="+1.5 extra fatigue per point of speed." />
+	  <Perk Name="Dancer's Vitality IV" Description="+1.5 extra fatigue per point of speed." />
+	  <Perk Name="Dancer's Vitality V" Description="+1.5 extra fatigue per point of speed." />
+	  <Perk Name="Dancer's Vitality VI" Description="+1.5 extra fatigue per point of speed." />
+	  <Perk Name="Dark Ritual" Description="Allow to use the Dark Ritual option wich can be Toggled on or off. While Dark Ritual is active spells are 300% stronger but consume 10% health on cast as they are paid in blood." />
+	  <Perk Name="Deadly Aim" Description="Arrows/Bolts ignore damage reductions piercing right through your opponent armor weak points (ignore enemy dmg red)." />
+	  <Perk Name="Demonic Desire I" Description="Raises max lust by 5% of base value." />
+	  <Perk Name="Demonic Desire II" Description="Raises max lust by 5% of base value." />
+	  <Perk Name="Demonic Desire III" Description="Raises max lust by 5% of base value." />
+	  <Perk Name="Demonic Desire IV" Description="Raises max lust by 5% of base value." />
+	  <Perk Name="Demonic Desire V" Description="Raises max lust by 5% of base value." />
+	  <Perk Name="Demonic Desire VI" Description="Raises max lust by 5% of base value." />
+	  <Perk Name="Demonic Lethicite" Description="Improves soulforce and makes you more demonic." />
+	  <Perk Name="Desensitization" Description="Negative effects of sensitivity are reduced by 5%." />
+	  <Perk Name="Diehard" Description="You can't loose by HP until reaching droping into negative health larger than 2% of max HP + 600(scalable). When below 0 HP would lose 1% of max HP per turn." />
+	  <Perk Name="Double Attack (Small)" Description="Allows you to perform two melee attacks with small weapons per round." />
+	  <Perk Name="Double Strike" Description="Allows you to perform two range attacks per round." />
+	  <Perk Name="Drake Lungs" Description="Increases the power of dragon breath attack. (+300% to dragon breath damage that race is using) Speed +5%." />
+	  <Perk Name="Dual Wield" Description="Allows you to wield two weapons." />
+	  <Perk Name="Dual Wield (Firearms)" Description="Allows you to wield two firearms (non 2H ones) more effectively. (damage and accuracy penalties decreased by 20% and 10%)" />
+	  <Perk Name="Dual Wield (Normal)" Description="Allows you to wield two normal sized melee weapons more effectively. (damage and accuracy penalties decreased by 20% and 10%)" />
+	  <Perk Name="Dual Wield (Small)" Description="Allows you to wield two small sized melee weapons more effectively. (damage and accuracy penalties decreased by 20% and 10%)" />
+	  <Perk Name="Eclipsing Shadow" Description="Cumulative 20% damage increase for every subsequent darkness spell. Each turn without casted darkness spell lower damage by 20%." />
+	  <Perk Name="Eclipsing Shadow (Ex)" Description="Increase to cumulative damage by 10%. Penalty for turn without casted darkness spell decreased by 5%." />
+	  <Perk Name="Eclipsing Shadow (Su)" Description="Prevent decay of cumulative damage increase bonus when channeling darkness based attack. Penalty for turn without casted darkness spell decreased by another 5%." />
+	  <Perk Name="Enhancement" Description="Using your knowledge of alchemy, you've found a way to enhance the effects of transformatives +1 effect." />
+	  <Perk Name="Epic Golem Maker" Description="Your proficiency in making golems allows to make stronger golems. Intelligence +10%, Wisdom +10%." />
+	  <Perk Name="Epic Golem Maker (2nd Circle)" Description="Your proficiency in making golems allows to make stronger than before golems. Intelligence +20%, Wisdom +20%." />
+	  <Perk Name="Epic Golem Maker (3rd Circle)" Description="Your proficiency in making golems allows to make stronger golems as much stronger their creator became and slightly rise your intelligence and wisdom. Also allow to make and store 1 improved stone golem. Intelligence +30%, Wisdom +30%." />
+	  <Perk Name="Eromancy (Beginner)" Description="+3 extra maximum mana for each point of intelligence and +1 extra maximum fatigue for each point of libido." />
+	  <Perk Name="Eromancy (Expert)" Description="+3 extra maximum mana for each point of intelligence and +2 extra maximum fatigue for each point of libido, bonus to lust dmg dealt by m. specials similary to the one given by Arcane Lash." />
+	  <Perk Name="Eromancy (Master)" Description="+6 extra maximum mana for each point of intelligence and +2 extra maximum fatigue for each point of libido, tease exp for use of Arouse spell or m. specials dealing lust dmg." />
+	  <Perk Name="Expert Golem Maker" Description="Your proficiency in making golems allows them to attack even flying enemies, lower by 5% chance of core shattering and storing more golems." />
+	  <Perk Name="Eyes of the Hunter (Adept)" Description="Allow see another few infomations about enemy (as long it apply to current viewed enemy) (req. 50+ sensitivity)." />
+	  <Perk Name="Eyes of the Hunter (Master)" Description="Allow see more infomations about enemy (as long it apply to current viewed enemy) (req. 75+ sensitivity)." />
+	  <Perk Name="Eyes of the Hunter (Novice)" Description="Allow see few more than usual infomations about enemy (req. 25+ sensitivity)." />
+	  <Perk Name="Feral Armor" Description="Gain extra armor based on your toughness so long as you're naked and have any form of natural armor." />
+	  <Perk Name="Furious strikes" Description="Wrath generated by base melee/range attacks and abilities increases by 100%." />
+	  <Perk Name="Giant's Reach" Description="When fighting groups of enemies with Large weapons it creates small shockwaves increasing range (and damage) of AoE attacks." />
+	  <Perk Name="Gigant's Grip" Description="Gain an ability to wield large weapons and massive shields in one hand. (+5 to max Str) Strength +50%." />
+	  <Perk Name="Gigant's Grip (Ex)" Description="Allow to apply all perks boosting Large weapon performance (increased atk and etc.) to Massive weapons. Exception are perks that allow for multi attacks of large weapons. Toughness +50%, Strength +50%." />
+	  <Perk Name="Glacial Storm" Description="Cumulative 20% damage increase for every subsequent ice spell. Each turn without casted ice spell lower damage by 20%." />
+	  <Perk Name="Glacial Storm (Ex)" Description="Increase to cumulative damage by 10%. Penalty for turn without casted ice spell decreased by 5%." />
+	  <Perk Name="Glacial Storm (Su)" Description="Prevent decay of cumulative damage increase bonus when channeling ice based attack. Penalty for turn without casted ice spell decreased by another 5%." />
+	  <Perk Name="Golem Army Captain" Description="+2/4 to max limit of stored permanent/temporary stone golems." />
+	  <Perk Name="Golem Army Colonel" Description="+4/8 to max limit of stored permanent/temporary stone golems." />
+	  <Perk Name="Golem Army General" Description="+1/5/10 to max limit stored of (permanent improved/normal)/temporary stone golems." />
+	  <Perk Name="Golem Army Lieutenant" Description="+1/2 to max limit stored of permanent/temporary stone golems." />
+	  <Perk Name="Golem Army Major" Description="+3/6 to max limit stored of permanent/temporary stone golems." />
+	  <Perk Name="Goliath I" Description="+8 extra HP per point of strength." />
+	  <Perk Name="Goliath II" Description="+8 extra HP per point of strength." />
+	  <Perk Name="Goliath III" Description="+8 extra HP per point of strength." />
+	  <Perk Name="Goliath IV" Description="+8 extra HP per point of strength." />
+	  <Perk Name="Goliath V" Description="+8 extra HP per point of strength." />
+	  <Perk Name="Goliath VI" Description="+8 extra HP per point of strength." />
+	  <Perk Name="Harpy Song" Description="Your voice is supernaturaly enhanced and may be used during battle to arouse foes." />
+	  <Perk Name="Heroism" Description="Allows you to deal double damage toward boss or gigant sized enemies." />
+	  <Perk Name="Hex Knowledge" Description="Allow to cast hex magic spells as long corruption is 80+, locks out access to white spells and deal 20% more dmg when using black or hex magic to attack pure enemies." />
+	  <Perk Name="High Voltage" Description="Cumulative 20% damage increase for every subsequent lightning spell. Each turn without casted lightning spell lower damage by 20%." />
+	  <Perk Name="High Voltage (Ex)" Description="Increase to cumulative damage by 10%. Penalty for turn without casted lightning spell decreased by 5%." />
+	  <Perk Name="High Voltage (Su)" Description="Prevent decay of cumulative damage increase bonus when channeling lightning based attack. Penalty for turn without casted lightning spell decreased by another 5%." />
+	  <Perk Name="Inhuman Desire I" Description="+3 extra LP per point of libido." />
+	  <Perk Name="Inhuman Desire II" Description="+3 extra LP per point of libido." />
+	  <Perk Name="Inhuman Desire III" Description="+3 extra LP per point of libido." />
+	  <Perk Name="Inhuman Desire IV" Description="+3 extra LP per point of libido." />
+	  <Perk Name="Inhuman Desire V" Description="+3 extra LP per point of libido." />
+	  <Perk Name="Inhuman Desire VI" Description="+3 extra LP per point of libido." />
+	  <Perk Name="Insightful Resources I" Description="+5 extra soulforce per point of wisdom." />
+	  <Perk Name="Insightful Resources II" Description="+5 extra soulforce per point of wisdom." />
+	  <Perk Name="Insightful Resources III" Description="+5 extra soulforce per point of wisdom." />
+	  <Perk Name="Insightful Resources IV" Description="+5 extra soulforce per point of wisdom." />
+	  <Perk Name="Insightful Resources V" Description="+5 extra soulforce per point of wisdom." />
+	  <Perk Name="Insightful Resources VI" Description="+5 extra soulforce per point of wisdom." />
+	  <Perk Name="Iron Fists I" Description="Hardens your fists to increase attack rating by 10." />
+	  <Perk Name="Iron Fists II" Description="Further hardens your fists to increase attack rating by another 10." />
+	  <Perk Name="Iron Fists III" Description="Even more hardens your fists to increase attack rating again by 10." />
+	  <Perk Name="Iron Fists IV" Description="Next training to harden your fists increased their attack rating by 10." />
+	  <Perk Name="Iron Fists V" Description="Almost hellish training increeased your fists attack rating by another 10." />
+	  <Perk Name="Iron Fists VI" Description="Another round of almost hellish taining increeased your fists attack rating by another 10." />
+	  <Perk Name="Iron Stomach" Description="Increase max Satiety by 50 and limit when PC gain weight from eating too much by 5." />
+	  <Perk Name="Iron Stomach (Ex)" Description="Increase max Satiety by 100 and limit when PC gain weight from eating too much by another 10." />
+	  <Perk Name="Iron Stomach (Su)" Description="Increase max Satiety by 200, limit when PC gain weight from eating too much by another 15. Toughness +5%." />
+	  <Perk Name="Knowledge is power" Description="You become more powerful the more you know about Mareth. Increase spell and physical damage by a percentage based on how much of the codex was read." />
+	  <Perk Name="Lacta Bovine Immunity" Description="You are seldom immune to all the dangerous effect of minotaur cum but you are also naturaly addicted to it." />
+	  <Perk Name="Limit Breaker: Body (1st stage)" Description="Breaking your limits for 'body' for the first time grants you +5% max HP and Wrath." />
+	  <Perk Name="Limit Breaker: Body (2nd stage)" Description="Breaking your limits for 'body' for the first time grants you +10% max HP and Wrath." />
+	  <Perk Name="Limit Breaker: Flesh (1st stage)" Description="Breaking your limits for 'flesh' for the first time. Speed +10%, Toughness +10%, Strength +10%." />
+	  <Perk Name="Limit Breaker: Flesh (2nd stage)" Description="Breaking your limits for 'flesh' for the first time. Speed +20%, Toughness +20%, Strength +20%." />
+	  <Perk Name="Limit Breaker: Heart (1st stage)" Description="Breaking your limits for 'heart' for the first time grants you +5% max Lust and Fatigue." />
+	  <Perk Name="Limit Breaker: Heart (2nd stage)" Description="Breaking your limits for 'heart' for the first time grants you +10% max Lust and Fatigue." />
+	  <Perk Name="Limit Breaker: Psyche (1st stage)" Description="Breaking your limits for 'psyche' for the first time. Intelligence +10%, Wisdom +10%, Libido +10%, Sensitivity +10." />
+	  <Perk Name="Limit Breaker: Psyche (2nd stage)" Description="Breaking your limits for 'psyche' for the first time. Intelligence +20%, Wisdom +20%, Libido +20%, Sensitivity +20." />
+	  <Perk Name="Limit Breaker: Soul (1st stage)" Description="Breaking your limits for 'soul' for the first time grants you +5% max Mana and Soulforce." />
+	  <Perk Name="Limit Breaker: Soul (2nd stage)" Description="Breaking your limits for 'soul' for the first time grants you +10% max Mana and Soulforce." />
+	  <Perk Name="Long(er) Lasting Buffs I" Description="Buff spells last 1 turn longer." />
+	  <Perk Name="Long(er) Lasting Buffs II" Description="Buff spells last 1 turn longer." />
+	  <Perk Name="Long(er) Lasting Buffs III" Description="Buff spells last 1 turn longer." />
+	  <Perk Name="Long(er) Lasting Buffs IV" Description="Buff spells last 1 turn longer." />
+	  <Perk Name="Long(er) Lasting Buffs V" Description="Buff spells last 1 turn longer." />
+	  <Perk Name="Long(er) Lasting Buffs VI" Description="Buff spells last 1 turn longer." />
+	  <Perk Name="Lucky" Description="You just happen to stumble across money where ever you go, increasing the money gained upon victory. (15% more gems from victories)" />
+	  <Perk Name="Mage's Wrath" Description="Magic Bolt (and Elemental Bolt if PC knows it) will be castable in (Ex) version that increase their power 2x while additionaly using 100 wrath. Safe limit for spellcasting increased by 5%." />
+	  <Perk Name="Mage's Wrath (Ex)" Description="Tier 1 elemental spells will be castable in (Ex) version that increase their power 2x while additionaly using 100 wrath. Safe limit for spellcasting increased by 5%." />
+	  <Perk Name="Magicules Theory" Description="Increases magical critical hit chance by up to 10% (Wisdom-based)." />
+	  <Perk Name="Mana Affinity I" Description="Raises max mana by 3% of base value and regain it 25% faster." />
+	  <Perk Name="Mana Affinity II" Description="Raises max mana by 3% of base value and regain it 25% faster." />
+	  <Perk Name="Mana Affinity III" Description="Raises max mana by 3% of base value and regain it 25% faster." />
+	  <Perk Name="Mana Affinity IV" Description="Raises max mana by 3% of base value and regain it 25% faster." />
+	  <Perk Name="Mana Affinity V" Description="Raises max mana by 3% of base value and regain it 25% faster." />
+	  <Perk Name="Mana Affinity VI" Description="Raises max mana by 3% of base value and regain it 25% faster." />
+	  <Perk Name="Mana Core" Description="Increase max mana by 10% + 10% to 15% (per each attained magical mastery stage) of base value." />
+	  <Perk Name="Mind over Body I" Description="+6 extra mana per point of intelligence." />
+	  <Perk Name="Mind over Body II" Description="+6 extra mana per point of intelligence." />
+	  <Perk Name="Mind over Body III" Description="+6 extra mana per point of intelligence." />
+	  <Perk Name="Mind over Body IV" Description="+6 extra mana per point of intelligence." />
+	  <Perk Name="Mind over Body V" Description="+6 extra mana per point of intelligence." />
+	  <Perk Name="Mind over Body VI" Description="+6 extra mana per point of intelligence." />
+	  <Perk Name="Natural healing (Minor)" Description="Incease healing power by 30% and lower healing spells mana costs by 10%." />
+	  <Perk Name="Natural healing (Major)" Description="Incease healing power by 40% and lower healing spells mana costs by 15%." />
+	  <Perk Name="Natural healing (Epic)" Description="Incease healing power by 50% and lower healing spells mana costs by 20%." />
+	  <Perk Name="Natural healing (Legendary)" Description="Incease healing power by 60% and lower healing spells mana costs by 25%." />
+	  <Perk Name="Natural herbalism" Description="Gain three times as many herbs and items from gathering and crafting. Poultice heals for 50% more. Gain herbalism experience faster." />
+	  <Perk Name="Nature's Spring I" Description="Raises max fatigue by 20 and regain it 5% faster." />
+	  <Perk Name="Nature's Spring II" Description="Raises max fatigue by 20 and regain it 5% faster." />
+	  <Perk Name="Nature's Spring III" Description="Raises max fatigue by 20 and regain it 5% faster." />
+	  <Perk Name="Nature's Spring IV" Description="Raises max fatigue by 20 and regain it 5% faster." />
+	  <Perk Name="Nature's Spring V" Description="Raises max fatigue by 20 and regain it 5% faster." />
+	  <Perk Name="Nature's Spring VI" Description="Raises max fatigue by 20 and regain it 5% faster." />
+	  <Perk Name="Novice War Mage" Description="Increases wrath bar by 50. Safe limit for spellcasting increased by 5%." />
+	  <Perk Name="Nurse" Description="Constantly running around tending to the sick has made you better at taking care of yourself, increasing health regen." />
+	  <Perk Name="Pew Warmer" Description="You attend mass, but have a small tendecy to sleep during the sermon... but hey, merely attending was enough to help lower your minimum libido and boost lust resistance. (-2 min libido/+5% to lust resistance)" />
+	  <Perk Name="Power Shot" Description="Enable Power Shoot p. special. Add some of your strength (~40% of str scaling value) to bow damage." />
+	  <Perk Name="Primal Fury I" Description="Raises max Wrath by 5%, generates 2 point of Wrath out of combat and double this amount during fight." />
+	  <Perk Name="Primal Fury II" Description="Raises max Wrath by 5%, generates 2 point of Wrath out of combat and double this amount during fight." />
+	  <Perk Name="Primal Fury III" Description="Raises max Wrath by 5%, generates 2 point of Wrath out of combat and double this amount during fight." />
+	  <Perk Name="Primal Fury IV" Description="Raises max Wrath by 5%, generates 2 point of Wrath out of combat and double this amount during fight." />
+	  <Perk Name="Primal Fury V" Description="Raises max Wrath by 5%, generates 2 point of Wrath out of combat and double this amount during fight." />
+	  <Perk Name="Primal Fury VI" Description="Raises max Wrath by 5%, generates 2 point of Wrath out of combat and double this amount during fight." />
+	  <Perk Name="Refined Body I" Description="Raises max HP by 5% of base value." />
+	  <Perk Name="Refined Body II" Description="Raises max HP by 5% of base value." />
+	  <Perk Name="Refined Body III" Description="Raises max HP by 5% of base value." />
+	  <Perk Name="Refined Body IV" Description="Raises max HP by 5% of base value." />
+	  <Perk Name="Refined Body V" Description="Raises max HP by 5% of base value." />
+	  <Perk Name="Refined Body VI" Description="Raises max HP by 5% of base value." />
+	  <Perk Name="Regeneration I" Description="Regenerates 1% of max HP/hour and 0,5% of max HP/round." />
+	  <Perk Name="Regeneration II" Description="Regenerates further 1% of max HP/hour and 0,5% of max HP/round." />
+	  <Perk Name="Regeneration III" Description="Regenerates further 1% of max HP/hour and 0,5% of max HP/round." />
+	  <Perk Name="Regeneration IV" Description="Regenerates further 1% of max HP/hour and 0,5% of max HP/round." />
+	  <Perk Name="Regeneration V" Description="Regenerates further 1% of max HP/hour and 0,5% of max HP/round." />
+	  <Perk Name="Regeneration VI" Description="Regenerates further 1% of max HP/hour and 0,5% of max HP/round." />
+	  <Perk Name="Rejuvenation Sleep" Description="Gain +200% boost to health and fatigue recovery during sleep." />
+	  <Perk Name="Resistance I" Description="Reduces lust gain by 5%." />
+	  <Perk Name="Resistance II" Description="Reduces lust gain by 5%." />
+	  <Perk Name="Resistance III" Description="Reduces lust gain by 5%." />
+	  <Perk Name="Resistance IV" Description="Reduces lust gain by 5%." />
+	  <Perk Name="Resistance V" Description="Reduces lust gain by 5%." />
+	  <Perk Name="Resistance VI" Description="Reduces lust gain by 5%." />
+	  <Perk Name="Second Ring" Description="Your basic understanding of magic pools allows you to equip second ring." />
+	  <Perk Name="Sensual" Description="Lowering by ~40% needed exp to lvl-up tease and +1 more tease exp after succes." />
+	  <Perk Name="Sharpshooter" Description="Allow to increase non-bow range weapons attack up to 200% (Intelligence-based)." />
+	  <Perk Name="Shoot the load and hit the road" Description="Removes penalty to libido and boost slightly speed. (+5 to max spe - scalable). Speed +5%, Libido +5%." />
+	  <Perk Name="Sneaky attack" Description="Strike the vitals of a stunned, blinded or distracted opponent for heavy damage (2x)." />
+	  <Perk Name="Soldier's Friend" Description="Get out there ya commie! (Just go, don't argue with him and take a +10% ranged damage buff)" />
+	  <Perk Name="Soul Powered" Description="You use your soul force more than anything else... increasing its size by 10%." />
+	  <Perk Name="Spellpower: Healing" Description="Increases base spell strength by 20% and mana pool by 90." />
+	  <Perk Name="Starlight Strikes" Description="Increases the attack damage for small weapons." />
+	  <Perk Name="Studious" Description="You're a new student, kinda have to be studious. Your hours of study has helped you increase max mana by 10%." />
+	  <Perk Name="Super Sensual" Description="Lowering by another ~40% needed exp to lvl-up tease, increasing max tease lvl cap to 50, increasing a bit lust dmg when tease chance is above 100% (each 1% above 100% increase lust dmg by ~1%) and +2 more tease exp after succes." />
+	  <Perk Name="Tank I" Description="+12 extra HP per point of toughness." />
+	  <Perk Name="Tank II" Description="+12 extra HP per point of toughness." />
+	  <Perk Name="Tank III" Description="+12 extra HP per point of toughness." />
+	  <Perk Name="Tank IV" Description="+12 extra HP per point of toughness." />
+	  <Perk Name="Tank V" Description="+12 extra HP per point of toughness." />
+	  <Perk Name="Tank VI" Description="+12 extra HP per point of toughness." />
+	  <Perk Name="Telekinesis" Description="You have the power to wield and throw objects with your mind alone. Gain a bonus to damage based on inteligence when using thrown weapons and aquire additionnal attacks based on character level." />
+	  <Perk Name="Third Ring" Description="Your advanced understanding of magic pools allows you to equip third ring." />
+	  <Perk Name="Thirst for blood" Description="Weapon and effect that causes bleed damage have this damage increased by 50%." />
+	  <Perk Name="Tongs" Description="You no longer burn your hands when forging, allowing you to actually get work done! This increases armor proficiency. (+5% phys/mag resistance)" />
+	  <Perk Name="Traditional Mage I" Description="You gain 100% spell effect multiplier while using a staff and either a tome or no ranged weapon." />
+	  <Perk Name="Traditional Mage II" Description="You gain 100% spell effect multiplier while using a staff and either a tome or no ranged weapon." />
+	  <Perk Name="Traditional Mage III" Description="You gain 100% spell effect multiplier while using a staff and either a tome or no ranged weapon." />
+	  <Perk Name="Traditional Mage IV" Description="You gain 100% spell effect multiplier while using a staff and either a tome or no ranged weapon." />
+	  <Perk Name="Traditional Mage V" Description="You gain 100% spell effect multiplier while using a staff and either a tome or no ranged weapon." />
+	  <Perk Name="Traditional Mage VI" Description="You gain 100% spell effect multiplier while using a staff and either a tome or no ranged weapon." />
+	  <Perk Name="Unlock: Ardor (1st Stage)" Description="Unlocking ardor grants additional 3 Lust on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Ardor (2nd Stage)" Description="Unlocking ardor grants additional 3 Lust on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Ardor (3rd Stage)" Description="Unlocking ardor grants additional 3 Lust on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Ardor (4th Stage)" Description="Unlocking ardor grants additional 3 Lust on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Body (1st Stage)" Description="Unlocking body potential grants additional 60 HP on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Body (2nd Stage)" Description="Unlocking body potential grants additional 60 HP on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Body (3rd Stage)" Description="Unlocking body potential grants additional 60 HP on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Body (4th Stage)" Description="Unlocking body potential grants additional 60 HP on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Endurance (1st Stage)" Description="Unlocking innate endurance grants additional 5 Fatigue on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Endurance (2nd Stage)" Description="Unlocking innate endurance grants additional 5 Fatigue on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Endurance (3rd Stage)" Description="Unlocking innate endurance grants additional 5 Fatigue on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Endurance (4th Stage)" Description="Unlocking innate endurance grants additional 5 Fatigue on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Force (1st Stage)" Description="Unlocking magic potential grants additional 10 Mana on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Force (2nd Stage)" Description="Unlocking magic potential grants additional 10 Mana on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Force (3rd Stage)" Description="Unlocking magic potential grants additional 10 Mana on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Force (4th Stage)" Description="Unlocking magic potential grants additional 10 Mana on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Id (1st Stage)" Description="Unlocking id grants additional 5 Wrath on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Id (2nd Stage)" Description="Unlocking id grants additional 5 Wrath on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Id (3rd Stage)" Description="Unlocking id grants additional 5 Wrath on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Id (4th Stage)" Description="Unlocking id grants additional 5 Wrath on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Spirit (1st Stage)" Description="Unlocking spirit potential grants additional 5 Soulforce on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Spirit (2nd Stage)" Description="Unlocking spirit potential grants additional 5 Soulforce on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Spirit (3rd Stage)" Description="Unlocking spirit potential grants additional 5 Soulforce on each lvl-up (retroactive effect)." />
+	  <Perk Name="Unlock: Spirit (4th Stage)" Description="Unlocking spirit potential grants additional 5 Soulforce on each lvl-up (retroactive effect)." />
+	  <Perk Name="Verdant Might" Description="As a plant when using natural weapon your damage scaling is based on Toughness instead of strength." />
+	  <Perk Name="Vital Shot" Description="Gain a +10% chance to do a critical strike with arrows." />
+	  <Perk Name="Whistles" Description="Sample Text Here/+20% fatigue recovery rate" />
+	  <Perk Name="Wisened Healer" Description="Adds wisdom based scaling to healing spells at cost of doubling spells costs." />
+	  <Perk Name="Wisp Captain" Description="Increase wisp commanding aura boosting other summoned pets/minions attack power effects by 30% (60% in total)." />
+	  <Perk Name="Wisp Lieutenant" Description="Increase wisp commanding aura boosting other summoned pets/minions attack power effects by 20% (30% in total)." />
+	  <Perk Name="Wisp Major" Description="Increase wisp commanding aura boosting other summoned pets/minions attack power effects by 40% (100% in total)." />
+	  <Perk Name="Wizened" Description="You are wise, what did you expect, something wise? You do get 10% more soulforce though." />
+	</PerkGroup>
   </Perks>
   <Items>
     <ItemGroup Name="Miscellaneous" Category="Other">
